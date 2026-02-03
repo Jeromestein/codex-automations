@@ -1,6 +1,6 @@
-# Codex Automations
+# Automations for Codex App
 
-This repository contains a collection of automation scripts and configurations for Codex.
+This repository contains a collection of automation scripts and configurations for Codex App.
 
 ## Installation / 安装
 
@@ -9,7 +9,7 @@ To start using these automations, simply copy the files to the following path:
 
 `~/.codex/automations`
 
-(Expand `~` to your home directory, e.g., `/Users/yourusername/.codex/automations`)
+(Expand `~` to your home directory, e.g., `/Users/yourusername/.codex/automations` in macOS)
 
 ## Available Automations / 可用自动化
 
