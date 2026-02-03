@@ -1,0 +1,9 @@
+version = 1
+id = "performance-regression-watch"
+name = "Performance regression watch"
+prompt = "Compare recent changes to benchmarks or traces and flag regressions early.\n\nGrounding rules:\n- Ground claims in measurable signals (benchmarks, traces, timings, flamegraphs).\n- If measurements are unavailable, state “No measurements found” rather than guessing."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=9;BYMINUTE=0;BYDAY=SU,MO,TU,WE,TH,FR,SA"
+cwds = ["/path/to/project"]
+created_at = 1770078946123
+updated_at = 1770078946123

@@ -1,0 +1,9 @@
+version = 1
+id = "test-gap-detection"
+name = "Test gap detection"
+prompt = "Identify untested paths from recent changes; add focused tests and use $yeet for draft PRs.\n\nConstraints:\n- Keep scope tight to the changed areas; avoid broad refactors.\n- Prefer small, reliable tests that fail before and pass after."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=15;BYMINUTE=0;BYDAY=SU,MO,TU,WE,TH,FR,SA"
+cwds = ["/path/to/project"]
+created_at = 1770078985948
+updated_at = 1770078985948

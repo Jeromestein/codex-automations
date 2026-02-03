@@ -1,0 +1,9 @@
+version = 1
+id = "dependency-sweep"
+name = "Dependency sweep"
+prompt = "Scan outdated dependencies; propose safe upgrades with minimal changes.\n\nRules:\n- Prefer the smallest viable upgrade set.\n- Explicitly call out breaking-change risks and required migrations.\n- Do not propose upgrades without identifying current versions from the repo."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=HOURLY;INTERVAL=720;BYMINUTE=0;BYDAY=SU,MO,TU,WE,TH,FR,SA"
+cwds = ["/path/to/project"]
+created_at = 1770079089086
+updated_at = 1770079089086

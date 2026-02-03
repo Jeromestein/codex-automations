@@ -1,0 +1,9 @@
+version = 1
+id = "skill-progression-map"
+name = "Skill progression map"
+prompt = "From recent PRs and reviews, suggest next skills to deepen.\n\nGrounding rules:\n- Anchor each suggestion to concrete evidence (PR themes, review comments, recurring issues).\n- Avoid generic advice; make each recommendation actionable and specific."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=0;BYMINUTE=0;BYDAY=SU,TU,WE,FR,SA"
+cwds = ["/path/to/project"]
+created_at = 1770078585255
+updated_at = 1770078585255

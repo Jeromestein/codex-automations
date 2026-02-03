@@ -1,0 +1,9 @@
+version = 1
+id = "update-agents-md"
+name = "Update AGENTS.md"
+prompt = "Update AGENTS.md with newly discovered workflows and commands.\n\nConstraints:\n- Keep edits minimal, accurate, and grounded in repo usage.\n- Do not touch unrelated sections or auto-generated files.\n- If you are unsure, prefer adding a TODO with a short note rather than inventing."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=HOURLY;INTERVAL=8;BYMINUTE=0;BYDAY=FR"
+cwds = ["/path/to/project"]
+created_at = 1770077838961
+updated_at = 1770077838961

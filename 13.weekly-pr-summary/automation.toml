@@ -1,0 +1,9 @@
+version = 1
+id = "weekly-pr-summary"
+name = "Weekly PR summary"
+prompt = "Summarize last week’s PRs by teammate and theme; highlight risks.\n\nGrounding rules:\n- Use PR numbers/titles when available.\n- Avoid speculation about impact; stick to what the PR changed."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=9;BYMINUTE=0;BYDAY=MO"
+cwds = ["/path/to/project"]
+created_at = 1770079016389
+updated_at = 1770079016389

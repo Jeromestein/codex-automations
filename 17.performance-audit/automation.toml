@@ -1,0 +1,9 @@
+version = 1
+id = "performance-audit"
+name = "Performance audit"
+prompt = "Audit performance regressions and propose highest-leverage fixes.\n\nGrounding rules:\n- Ground claims in measurements/traces when available.\n- If evidence is missing, state uncertainty briefly and suggest what to measure next."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=14;BYMINUTE=0;BYDAY=MO"
+cwds = ["/path/to/project"]
+created_at = 1770079102125
+updated_at = 1770079102125

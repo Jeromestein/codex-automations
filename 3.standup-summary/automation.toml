@@ -1,0 +1,9 @@
+version = 1
+id = "standup-summary"
+name = "Standup summary"
+prompt = "Summarize yesterday’s git activity for standup.\n\nGrounding rules:\n- Anchor statements to commits/PRs/files; do not speculate about intent or future work.\n- Keep it scannable and team-ready."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=9;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR"
+cwds = ["/path/to/project"]
+created_at = 1770078515310
+updated_at = 1770078515310

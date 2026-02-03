@@ -1,0 +1,9 @@
+version = 1
+id = "issue-triage"
+name = "Issue triage"
+prompt = "Triage new issues; suggest owner, priority, and labels.\n\nGrounding rules:\n- Base recommendations on issue content + repo context (CODEOWNERS, touched areas, prior similar issues).\n- Do not guess owners without signals; if unclear, say “Owner: Unknown” and suggest a team instead."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=9;BYMINUTE=30;BYDAY=MO,TU,WE,TH,FR"
+cwds = ["/path/to/project"]
+created_at = 1770079033756
+updated_at = 1770079033756

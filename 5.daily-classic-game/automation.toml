@@ -1,0 +1,9 @@
+version = 1
+id = "daily-classic-game"
+name = "Daily classic game"
+prompt = "Create a small classic game with minimal scope.\n\nConstraints:\n- Do NOT add extra features, styling systems, content, or new dependencies unless required.\n- Reuse existing repo tooling and patterns."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=HOURLY;INTERVAL=24;BYMINUTE=0;BYDAY=SU,MO,TU,FR"
+cwds = ["/path/to/project"]
+created_at = 1770078560364
+updated_at = 1770078560364

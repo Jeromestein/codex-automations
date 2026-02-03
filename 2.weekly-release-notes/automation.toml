@@ -1,0 +1,9 @@
+version = 1
+id = "weekly-release-notes"
+name = "Weekly release notes"
+prompt = "Draft weekly release notes from merged PRs (include links when available).\n\nScope & grounding:\n- Stay strictly within the repo history for the week; do not add extra sections beyond what the data supports.\n- Use PR numbers/titles; avoid claims about impact unless supported by PR description/tests/metrics in repo."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=9;BYMINUTE=0;BYDAY=FR"
+cwds = ["/path/to/project"]
+created_at = 1770078495241
+updated_at = 1770078495241

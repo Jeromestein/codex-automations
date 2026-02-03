@@ -1,0 +1,9 @@
+version = 1
+id = "update-changelog"
+name = "Update changelog"
+prompt = "Update the changelog with this week’s highlights and key PR links.\n\nConstraints:\n- Only include items supported by repo history.\n- Keep structure simple and consistent with existing changelog format."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=16;BYMINUTE=0;BYDAY=FR"
+cwds = ["/path/to/project"]
+created_at = 1770079114815
+updated_at = 1770079114815

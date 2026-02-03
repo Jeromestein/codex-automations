@@ -1,0 +1,9 @@
+version = 1
+id = "pre-release-check"
+name = "Pre-release check"
+prompt = "Before tagging, verify changelog, migrations, feature flags, and tests.\n\nGrounding rules:\n- Report ONLY what you can confirm from the repo and CI context.\n- If a check cannot be verified, mark it explicitly as “Unknown.”"
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=13;BYMINUTE=0;BYDAY=TH"
+cwds = ["/path/to/project"]
+created_at = 1770079001124
+updated_at = 1770079001124

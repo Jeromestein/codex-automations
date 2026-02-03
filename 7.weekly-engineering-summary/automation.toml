@@ -1,0 +1,9 @@
+version = 1
+id = "weekly-engineering-summary"
+name = "Weekly engineering summary"
+prompt = "Synthesize this week’s PRs, rollouts, incidents, and reviews into a weekly update.\n\nGrounding rules:\n- Do not invent events; if data is missing, say that briefly.\n- Prefer concrete references (PR #, incident ID, rollout note, file path) where available."
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=16;BYMINUTE=0;BYDAY=FR"
+cwds = ["/path/to/project"]
+created_at = 1770078919291
+updated_at = 1770078919291

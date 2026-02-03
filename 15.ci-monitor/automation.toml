@@ -1,0 +1,9 @@
+version = 1
+id = "ci-monitor"
+name = "CI monitor"
+prompt = "Check CI failures; group by likely root cause and suggest minimal fixes.\n\nGrounding rules:\n- Cite jobs, tests, errors, and log evidence.\n- Avoid overconfident root-cause claims; label uncertain items as “Suspected.”"
+status = "ACTIVE"
+rrule = "RRULE:FREQ=HOURLY;INTERVAL=2;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR"
+cwds = ["/path/to/project"]
+created_at = 1770079050793
+updated_at = 1770079050793

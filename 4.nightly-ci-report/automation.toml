@@ -1,0 +1,9 @@
+version = 1
+id = "nightly-ci-report"
+name = "Nightly CI report"
+prompt = "Summarize CI failures and flaky tests from the last CI window; suggest top fixes.\n\nGrounding rules:\n- Cite specific jobs, tests, error messages, or log snippets when available.\n- Avoid overconfident root-cause claims; separate “observed” vs “suspected.”"
+status = "ACTIVE"
+rrule = "RRULE:FREQ=WEEKLY;BYHOUR=21;BYMINUTE=0;BYDAY=SU,MO,TU,WE,TH,FR,SA"
+cwds = ["/path/to/project"]
+created_at = 1770078526083
+updated_at = 1770078526083
