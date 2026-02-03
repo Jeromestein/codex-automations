@@ -2,16 +2,46 @@
 
 This repository contains a collection of automation scripts and configurations for Codex App.
 
-## Installation / 安装
+## Installation
 
 To start using these automations, simply copy the files to the following path:
-只需要把文件复制，放到以下路径下即可开始使用：
 
 `~/.codex/automations`
 
 (Expand `~` to your home directory, e.g., `/Users/yourusername/.codex/automations` in macOS)
 
-## Available Automations / 可用自动化
+## Configuration
+
+After copying the files, please open the `automation.toml` files and update the `cwds` field to point to your actual project path:
+
+```toml
+cwds = ["/path/to/project"]  # <--- Change this to your project path
+```
+
+## Schedule Configuration
+
+The `rrule` field in `automation.toml` controls the schedule of the automation using standard iCalendar RRULE format.
+
+**Common Parameters:**
+
+- **FREQ**: Frequency (e.g., `WEEKLY`, `HOURLY`)
+- **INTERVAL**: Repetition interval (e.g., `2` for every 2 hours)
+- **BYHOUR**: Hour of the day (0-23)
+- **BYMINUTE**: Minute of the hour (0-59)
+- **BYDAY**: Days of the week (`MO`, `TU`, `WE`, `TH`, `FR`, `SA`, `SU`)
+
+**Examples:**
+
+- **Weekly on Fridays at 4 PM:**
+  `FREQ=WEEKLY;BYHOUR=16;BYMINUTE=0;BYDAY=FR`
+
+- **Daily (Mon-Fri) at 9:30 AM:**
+  `FREQ=WEEKLY;BYHOUR=9;BYMINUTE=30;BYDAY=MO,TU,WE,TH,FR`
+
+- **Every 2 hours on weekdays:**
+  `FREQ=HOURLY;INTERVAL=2;BYMINUTE=0;BYDAY=MO,TU,WE,TH,FR`
+
+## Available Automations
 
 The following automations are included:
 
